@@ -4,16 +4,27 @@ public class Ejercicio3 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		
+		double num;
+		
 		System.out.println("Ingrese un numero: ");
-		double num = scan.nextDouble();
+		num = scan.nextDouble();
 		
 		if (num < 0) {
 			
 			System.out.println("Es negativo");
 		}
 		else {
-			System.out.println("Es positivo");
+			if (num == 0) {
+				System.out.println("Es nulo");
+			}
+			
+			else {
+				System.out.println("Es positivo");
+				
+			}
 		}
+		
+		
 
 	}
 
