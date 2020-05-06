@@ -10,9 +10,10 @@ public class Ejercicio1 {
 		System.out.println("Ingrese el radio: ");
 		double radio = scan.nextDouble();
 		
-		area = pi*(radio *radio); 
+		area = pi*(Math.pow(radio,2)); 
 		
 		System.out.println("El area del circulo es: "+area);
 	}
 
 }
+
